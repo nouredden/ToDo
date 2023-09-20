@@ -27,6 +27,7 @@ function markDone (item) {
 /* Step 7 below here */
 function remove (item) {
     // remove item completely from document
+    if (item.className == 'finished')
     item.remove();
 }
 
