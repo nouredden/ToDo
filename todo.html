@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <meta charset="UTF-8">
+          <title>
+            To Do list
+        </title>
+    </head>
+    <body>
+        <h1 id="myHeader">Simple To Do list</h1><br>
+        <p>
+            <!-- STEPs 1 and 2 below here  -->
+
+ <hr>
+
+ <ul id="tasks">
+ 
+   <li>
+ 
+     <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+ 
+     <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+ 
+     make todo list
+ 
+   </li>
+ 
+  </ul>
+ 
+ <hr>
+        </p>
+        <script src="todo.js"></script>
+    </body>
+</html>
