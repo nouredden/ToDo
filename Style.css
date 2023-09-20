@@ -20,14 +20,20 @@ ul {
  /* Step 5 below here */
  
  .done {
+    background-color: green;
  
  }
+ .remove {
+    background-color: red;
  
+ }
  /* mark task as finished */
  /* Step 6 below here */
  
  li.finished {
- 
+    color: white;
+    text-decoration: line-through;
+    background-color: gray;
  }
  
  input[type="text"] {
