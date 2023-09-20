@@ -14,6 +14,8 @@ function addTask () {
         document.getElementById("tasks").appendChild(item); 
 
         /* Step 4 below here */ 
+        input.value = "";
+        document.getElementById("input").placeholder="enter next task …";
     }
 }
 

@@ -9,6 +9,7 @@ ul {
  /* Step 3 below here */
  
  li {
+    font-size: 20px;
     list-style-type: none;
     background-color: #eee;
     border: 1px solid #c3c3c3;
