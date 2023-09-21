@@ -14,18 +14,26 @@ ul {
     background-color: #eee;
     border: 1px solid #c3c3c3;
     padding: 10px 0px 10px 5px;
+    border-radius: 10%;
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 300px;
  }
  
  
  /* Step 5 below here */
  
  .done {
-    background-color: green;
- 
+    background-color: rgb(74, 250, 74);
+    border-radius: 10%;
+ margin-left: 15px;
+ margin-right: 5px;
  }
  .remove {
-    background-color: red;
- 
+    background-color: rgb(185, 11, 11);
+    border-radius: 10%;
+    margin-left: 15px;
+    margin-right: 5px;
  }
  /* mark task as finished */
  /* Step 6 below here */
@@ -35,20 +43,34 @@ ul {
     text-decoration: line-through;
     background-color: gray;
  }
+ li.hilighted{
+    color: rgb(0, 0, 0);
+    background-color: rgb(110, 183, 231);
+ }
  
  input[type="text"] {
     font-size: 18px;
     width: 94%;
     padding: 10px;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
  }
  
  input[type="button"] {
     font-size: 1.2em;
     margin: -6px 4px 0px 0px;
+    border-radius: 20%;
+    margin-left: 15px;
+    margin-right: 5px;
  }
  
  #addButton {
     padding: 10px;
+    border-radius: 20%;
+    margin-left: 35px;
+    margin-right: 5px;
  }
  
  /* Step 10 below here */

@@ -8,7 +8,7 @@ function addTask () {
         var item = document.createElement("li");
         // add HTML for buttons and new task text
         // Note, need to use '' because of "" in HTML
-        item.innerHTML = '<input type="button" class="done" onclick="markDone(this.parentNode)"  value="&#x2713;" /> ' + '<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" /> ' + newTask;
+        item.innerHTML = '<input type="button" class="done" onclick="markDone(this.parentNode)"  value="&#x2713;" /> ' + '<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" /> ' + '<input type="button" class="important" onclick="makeImportant(this.parentNode)" value="!" /> ' + newTask;
 
         // add new item as part of existing list
         document.getElementById("tasks").appendChild(item); 
@@ -23,7 +23,9 @@ function addTask () {
 function markDone (item) {
     item.className = 'finished';
 }
-
+function makeImportant (item) {
+    item.className = 'hilighted';
+}
 /* Step 7 below here */
 function remove (item) {
     // remove item completely from document
