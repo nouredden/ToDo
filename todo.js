@@ -33,11 +33,13 @@ function remove (item) {
 
 /* Step 11 below here */
 function doAbout() {
-
+    document.getElementById("divabout").innerHTML = "the Author Is Nour Edden Alrez";
 }
 
 /* Step 14 below here */
 function clearAbout() {
+    document.getElementById("divabout").innerHTML = "";
 
+    
 }
 
